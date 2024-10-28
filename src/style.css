@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  width: 315px;
+  height: 80vh;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+#top-left,
+#bottom-right {
+  font-size: 6em;
+}
+
+#center {
+  font-size: 9.6em;
+  height: 100%;
+  color: black;
+}
+
+.heart,
+.diamond {
+  color: red;
+}
+
+.club,
+.spade {
+  color: black;
+}
+
+#top-left {
+  top: 10px;
+  left: 10px;
+}
+
+#bottom-right {
+  bottom: 10px;
+  right: 10px;
+  transform: scaleY(-1);
+}
